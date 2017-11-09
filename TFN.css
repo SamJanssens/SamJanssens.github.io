@@ -55,6 +55,12 @@
     margin: 0 auto;
 }
 
+.banner div{
+    height: 40px;
+    width: 100%;
+    background-color: #111;
+}
+
 /*sidebarLeft*/
 .sidebarLeft {
     background-color: #111;
