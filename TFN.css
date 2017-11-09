@@ -97,6 +97,12 @@
     float: left;
 }
 
+.main p{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 /*footer*/
 .footer{
     background-color: #111;
@@ -104,37 +110,4 @@
 
 .footer p{
     color: #fff;
-}
-
-/*twitch*/
-.twitch-widget {
-	background: #333;
-	border-radius: 5px;
-	color: #fff;
-	display: block;
-	margin: 25px 0;
-	padding: 10px;
-	text-decoration: none;
-}
-
-.online, .offline {
-	border-radius: 5px;
-	display: inline-block;
-	height: 10px;
-	width: 10px;
-}
-
-.online {
-	background: green;
-}
-
-.offline {
-	background: red;
-}
-
-.viewers {
-	color: #ccc;
-	display: block;
-	margin: 0 0 0 15px;
-	font-size: 0.8em;
 }
