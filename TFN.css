@@ -87,11 +87,23 @@ body{
 }
 /*/section*/
 /*section title*/
-.title img{
+/*.title img{
     position: absolute;
     top: 8%;
     left: 25%;
     height: 90px;
+}*/
+.title{
+    position: absolute;
+    top: 8%;
+    left: 25%;
+    width: 40%;
+}
+.title img{
+    display: block;
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto;
 }
 /*/section*/
 /*section twitch*/
@@ -120,6 +132,7 @@ body{
     top: 25%;
     left: 30%;
     width: 30%;
+    height: 70%;
     z-index: 11;
 }
 .info p{
@@ -127,6 +140,18 @@ body{
     font-weight: bold;
     font-size: 1em;
 }
+.info #discord{
+    position: relative;
+    top: -300px;
+    float: right;
+    width: 50%;
+    height: 85%;
+}
+
+.info img{
+    height: 300px;
+}
+
 /*/section*/
 /*section clock*/
 .clock{
