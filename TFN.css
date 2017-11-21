@@ -29,7 +29,7 @@ body{
 .menu{
     position: absolute;
     top: 32.6%;
-    left: 4%;
+    left: 6%;
     z-index: 11;
 }
 .menu ul{
@@ -43,7 +43,8 @@ body{
 }
 .menu a{
     text-decoration: none;
-    background-color: #f45c00;
+    /*background-color: #f45c00;*/
+    background-color: #aa4000;
     color: #111;
     display: block;
     padding: 10px;
@@ -80,7 +81,7 @@ body{
     position: relative;
     left: 45px;
     bottom: 300px;
-    background-color: #f45c00;
+    background-color: #aa4000;
     width: 10px;
     height: 250px;
     border: 2px solid #000;
@@ -96,8 +97,8 @@ body{
 .title{
     position: absolute;
     top: 8%;
-    left: 25%;
-    width: 40%;
+    left: 22%;
+    width: 50%;
 }
 .title img{
     display: block;
@@ -131,7 +132,7 @@ body{
     position: absolute;
     top: 25%;
     left: 30%;
-    width: 30%;
+    width: 40%;
     height: 70%;
     z-index: 11;
 }
