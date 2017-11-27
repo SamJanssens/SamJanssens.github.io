@@ -10,7 +10,8 @@ body{
     bottom: 0;
     left: 0;
     right: 0;
-    z-index: 10;
+    pointer-events: none;
+    z-index: 12;
 }
 .overlay img{
     height: 100%;
@@ -30,7 +31,7 @@ body{
     position: absolute;
     top: 32.6%;
     left: 6%;
-    z-index: 11;
+    z-index: 13;
 }
 .menu ul{
     list-style: none;
@@ -53,7 +54,7 @@ body{
 }
 
 .menu a:hover{
-    background-color: #f4df00;
+    background-color: #c3b200;
 }
 
 .menu a.active{
@@ -147,6 +148,16 @@ body{
     float: right;
     width: 50%;
     height: 85%;
+}
+
+.info #calendar{
+    position: relative;
+    left: -40px;
+}
+
+.info #about{
+    margin-left: 30px;
+    margin-right: 40px;
 }
 
 .info img{
