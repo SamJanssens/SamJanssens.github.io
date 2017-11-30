@@ -150,9 +150,13 @@ body{
     height: 85%;
 }
 
-.info #calendar{
-    position: relative;
-    left: -40px;
+#calendar.info{
+    position: absolute;
+    top: 18%;
+    width: 55%;
+    left: 22%;
+    height: 75%;
+    z-index: 11;
 }
 
 .info #about{
