@@ -98,7 +98,7 @@ body{
 .title{
     position: absolute;
     top: 8%;
-    left: 22%;
+    left: 24%;
     width: 50%;
 }
 .title img{
@@ -157,6 +157,11 @@ body{
     left: 22%;
     height: 75%;
     z-index: 11;
+}
+#twitter.info{
+    position: absolute;
+    top: 20%;
+    height: 70%;
 }
 
 .info #about{
