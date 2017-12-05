@@ -164,6 +164,10 @@ body{
     height: 70%;
 }
 
+ a.twitter-timeline{
+     font-size: 40px;
+ }
+
 .info #about{
     margin-left: 30px;
     margin-right: 40px;
