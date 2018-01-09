@@ -19,18 +19,33 @@ body{
 }
 /*/section*/
 /*section logo*/
-.logo img{
+.logo{
     position: absolute;
-    top: 6.4%;
-    left: 5.1%;
-    height: 230px;
+    top: 1%;
+    left: 1%;
+    height: 3%;
+    width: 5%;
+    z-index: 13;
+}
+.logo img{
+    height: 100%;
+}
+@media only screen and (min-width: 800px){
+    .logo{
+        top: 6.4%;
+        left: 5.1%;
+        z-index: -1;
+        display: block;
+        height: 23%;
+    }
 }
 /*/section*/
 /*section menu*/
 .menu{
+    display: block;
     position: absolute;
-    top: 32.6%;
-    left: 6%;
+    top: 1%;
+    left: 7%;
     z-index: 13;
 }
 .menu ul{
@@ -39,82 +54,131 @@ body{
     margin: 0;
 }
 .menu li{
-    margin-bottom: 40px;
     text-align: center;
+    float: left;
 }
 .menu a{
     text-decoration: none;
-    /*background-color: #f45c00;*/
-    background-color: #aa4000;
-    color: #111;
+    color: #eeeeee;
     display: block;
-    padding: 10px;
-    border-radius: 10px;
-    border: 2px solid #000;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .menu a:hover{
-    background-color: #c3b200;
+    background-color: #000000;
 }
 
 .menu a.active{
-    background-color: green;
+    color: #ee0000;
 }
 
-.menu #schedule{
-    position: relative;
-    left: 20px;
+
+@media only screen and (min-width: 800px){
+    .menu{
+        display: block;
+        position: absolute;
+        top: 32.6%;
+        left: 6%;
+        z-index: 13;
+    }
+    .menu ul{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    .menu li{
+        margin-bottom: 40px;
+        text-align: center;
+        float: none;
+    }
+    .menu a{
+        text-decoration: none;
+        background-color: #aa4000;
+        color: #111;
+        display: block;
+        padding: 10px;
+        border-radius: 10px;
+        border: 2px solid #000;
+    }
+
+    .menu a:hover{
+        background-color: #c3b200;
+    }
+
+    .menu a.active{
+        background-color: green;
+        color: #111;
+    }
+
+    .menu #schedule{
+        position: relative;
+        left: 20px;
+    }
+    .menu #news{
+        position: relative;
+        left: 10px;
+    }
+    .menu #community{
+        position: relative;
+        left: -10px;
+    }
+    .menu #about{
+        position: relative;
+        left: -0px;
+    }
+    .menu #bar{
+        display: block;
+        z-index: -1;
+        position: relative;
+        left: 45px;
+        bottom: 300px;
+        background-color: #aa4000;
+        width: 10px;
+        height: 250px;
+        border: 2px solid #000;
+    }
 }
-.menu #news{
-    position: relative;
-    left: 10px;
-}
-.menu #community{
-    position: relative;
-    left: -10px;
-}
-.menu #about{
-    position: relative;
-    left: -0px;
-}
-.menu #bar{
-    z-index: -1;
-    position: relative;
-    left: 45px;
-    bottom: 300px;
-    background-color: #aa4000;
-    width: 10px;
-    height: 250px;
-    border: 2px solid #000;
-}
+
 /*/section*/
 /*section title*/
-/*.title img{
-    position: absolute;
-    top: 8%;
-    left: 25%;
-    height: 90px;
-}*/
 .title{
     position: absolute;
-    top: 8%;
-    left: 24%;
-    width: 50%;
+    top: 10%;
+    width: 100%;
+    height: 5%;
 }
 .title img{
     display: block;
-    height: 90px;
+    height: 100%;
     margin-left: auto;
     margin-right: auto;
+}
+@media only screen and (min-width: 800px){
+    .title{
+        top: 8%;
+        left: 24%;
+        width: 50%;
+        height: 9%;
+    }
+    .title img{
+        height: 100%;
+        width: auto;
+    }
 }
 /*/section*/
 /*section twitch*/
 .twitch{
+    display: None;
     position: absolute;
     top: 65.8%;
     left: 78.1%;
     height: 30%;
-
+}
+@media only screen and (min-width: 800px){
+    .twitch{
+        display: block;
+    }
 }
 .twitch img{
     height: 240px;
@@ -131,9 +195,9 @@ body{
 /*section info*/
 .info{
     position: absolute;
-    top: 25%;
-    left: 30%;
-    width: 40%;
+    top: 18%;
+    left: 5%;
+    width: 90%;
     height: 70%;
     z-index: 11;
 }
@@ -143,26 +207,25 @@ body{
     font-size: 1em;
 }
 .info #discord{
-    position: relative;
-    top: -300px;
     float: right;
     width: 50%;
-    height: 85%;
+    height: 100%;
 }
-
 #calendar.info{
     position: absolute;
     top: 18%;
-    width: 55%;
-    left: 22%;
+    width: 90%;
+    left: 5%;
     height: 75%;
     z-index: 11;
 }
 #twitter.info{
     position: absolute;
-    top: 20%;
+    top: 18%;
     height: 70%;
-    left: 35%;
+    width: 90%;
+    left: 5%;
+    text-align: center;
 }
 
 .info #about{
@@ -171,16 +234,43 @@ body{
 }
 
 .info img{
-    height: 300px;
+    height: 50%;
+}
+
+@media only screen and (min-width: 800px){
+    .info{
+        top: 25%;
+        left: 30%;
+        width: 40%;
+        height: 65%;
+    }
+    .info #discord{
+        height: 85%;
+    }
+    #calendar.info{
+        width: 55%;
+        left: 22%;
+    }
+    #twitter.info{
+        width: 40%;
+        left: 30%;
+    }
+
 }
 
 /*/section*/
 /*section clock*/
 .clock{
+    display: None;
     z-index: -1;
     position: absolute;
     top: 5%;
     left: 75%;
+}
+@media only screen and (min-width: 1250px){
+    .clock{
+        display: block;
+    }
 }
 .clock p{
     position: relative;

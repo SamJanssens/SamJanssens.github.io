@@ -29,6 +29,7 @@ i {
 button{
   background-color: transparent;
   border: none;
+  padding: 6px;
 }
 span{
  position: relative;
@@ -78,4 +79,68 @@ div{
  border: 1px solid;
  margin: 1%;
  box-shadow: 3px 3px 2px grey;
+}
+
+@media only screen and (max-width: 800px){
+    h1{
+        font-size: 16px;
+    }
+    span{
+        font-size: 14px;
+    }
+    .title{
+        font-size: inherit;
+    }
+    .description{
+        display: None;
+    }
+}
+
+@media only screen and (max-width: 660px){
+    span{
+        font-weight: normal;
+    }
+    .title{
+        font-weight: normal;
+    }
+    .time{
+        font-weight: lighter;
+    }
+    .week{
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        padding: 0;
+    }
+    .day{
+        display: block;
+        float: none;
+        width: 100%;
+        height: auto;
+        border: none;
+    }
+    .day br{
+        display: none;
+    }
+    .date{
+        padding: 0;
+        border: none;
+    }
+    .date br{
+        display: None;
+    }
+    .date h1{
+        margin: 1%;
+        text-decoration: underline;
+    }
+    .event{
+        background-color: transparent;
+        border: none;
+        box-shadow: none;
+    }
+    .event br{
+        display: none;
+    }
+
+
 }
