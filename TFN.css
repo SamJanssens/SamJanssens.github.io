@@ -201,6 +201,7 @@ body{
     width: 90%;
     height: 70%;
     z-index: 11;
+    overflow-y: scroll;
 }
 .info p{
     font-family: "Georgia", serif;
