@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Cuprum');
 body{
-  font-family: "Georgia", serif;
-  font-size: 1em;
+  font-family: 'Cuprum', sans-serif;
+  font-size: 1.1em;
   max-width: 100%;
   overflow-x: hidden;
 }
@@ -33,7 +34,6 @@ button{
 }
 span{
  position: relative;
- font-family: "Georgia", serif;
  font-weight: bold;
  font-size: 1em;
  padding-left: 5%;
