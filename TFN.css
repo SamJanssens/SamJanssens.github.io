@@ -201,7 +201,6 @@ body{
     width: 90%;
     height: 70%;
     z-index: 11;
-    overflow-y: scroll;
 }
 .info p{
     font-family: "Georgia", serif;
@@ -233,6 +232,8 @@ body{
 .info #about{
     margin-left: 30px;
     margin-right: 40px;
+    height: 100%;
+    overflow-y: auto;
 }
 
 .info img{
