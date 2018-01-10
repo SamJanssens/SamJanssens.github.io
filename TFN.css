@@ -23,9 +23,9 @@ body{
 /*section logo*/
 .logo{
     position: absolute;
-    top: 1%;
-    left: 1%;
-    height: 3%;
+    top: 0.2%;
+    left: 0.5%;
+    height: 3.5%;
     width: 5%;
     z-index: 13;
 }
@@ -34,11 +34,10 @@ body{
 }
 @media only screen and (min-width: 800px){
     .logo{
-        top: 6.4%;
-        left: 5.1%;
-        z-index: -1;
+        top: 6%;
+        left: 4.5%;
         display: block;
-        height: 23%;
+        height: 20%;
     }
 }
 /*/section*/
