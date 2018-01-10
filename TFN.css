@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Cuprum');
 /*section body*/
 body{
     background-color: #fff;
@@ -64,6 +65,7 @@ body{
     display: block;
     padding-left: 10px;
     padding-right: 10px;
+    font-family: 'Cuprum', sans-serif;
 }
 
 .menu a:hover{
@@ -203,9 +205,9 @@ body{
     z-index: 11;
 }
 .info p{
-    font-family: "Georgia", serif;
+    font-family: 'Cuprum', sans-serif;
     font-weight: bold;
-    font-size: 1em;
+    font-size: 1.1em;
 }
 .info #discord{
     float: right;
@@ -230,8 +232,8 @@ body{
 }
 
 .info #about{
-    margin-left: 30px;
-    margin-right: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
     height: 100%;
     overflow-y: auto;
 }
@@ -278,7 +280,7 @@ body{
 .clock p{
     position: relative;
     left: 55px;
-    font-family: "Georgia", serif;
+    font-family: 'Cuprum', sans-serif;
     font-weight: bold;
     font-size: 2em;
     margin-bottom: -10px;
